@@ -1,0 +1,45 @@
+.zerodha-logo{
+    margin-left: 5rem;
+    
+}
+.navbar{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-item{
+    /* margin-left: 6rem; */
+    margin-right: 5rem;
+}
+
+.auth-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 23, 42, 0.38);
+}
+
+.auth-modal {
+    position: relative;
+    width: min(92vw, 420px);
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 24px 70px rgba(15, 23, 42, 0.24);
+}
+
+.auth-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    border: 0;
+    background: transparent;
+    color: #6b7280;
+    font-size: 1.25rem;
+    line-height: 1;
+}

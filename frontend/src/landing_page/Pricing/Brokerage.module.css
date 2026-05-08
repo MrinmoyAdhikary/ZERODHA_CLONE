@@ -1,0 +1,18 @@
+.tabButton {
+    border: none; /* Forces the border away in normal state */
+    outline: none;           /* Removes the focus ring */
+    box-shadow: none;        /* Removes Bootstrap's shadow on click */
+    color: #387ed1;
+    margin-left: 2rem;
+}
+
+.tabButton:hover {
+    border: 0;
+    color: gray;
+}
+
+.activeTab {
+    border-bottom: 3px solid  #387ed1 !important;
+    color: gray !important;
+    font-weight: 500;
+}
